@@ -1,0 +1,29 @@
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-green {
+  background: #1fd07e;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #11af66;
+    transition: background 0.3s ease;
+  }
+}
+
+.btn-yellow {
+  background: #FFCD4B;
+
+  &:hover {
+    color: white;
+    background: #FFCD4B;
+    cursor: context-menu;
+  }
+}
