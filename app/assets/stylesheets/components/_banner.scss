@@ -1,7 +1,9 @@
 .banner {
+  padding: 150px 0;
+  background-color: #6c757d;
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+
 
   h1 {
     margin: 0;
@@ -14,7 +16,6 @@
 
 .banner-list {
   position: relative;
-  background-color: #A9A9A9;
 
   button {
     position: absolute;

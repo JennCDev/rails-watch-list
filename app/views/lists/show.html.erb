@@ -1,5 +1,7 @@
-<div class="banner banner-list mb-5">
-  <div class="container ">
+<div class="banner banner-list mb-5 bg" <% if @list.photo.attached? %>
+                                              style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @list.photo.key, crop: :fill %>')"
+                                             <%end%> >
+  <div class="container">
     <button class="btn btn-flat btn-yellow"><%= pluralize(@list.movies.count, 'movie') %></button>
     <h1 class="text-center"><%= @list.name %></h1>
   </div>
